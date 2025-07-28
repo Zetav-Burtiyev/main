@@ -5,7 +5,7 @@ import rasterio
 from PIL import Image
 
 # Load model
-model = tf.keras.models.load_model("forest_loss_updated_cnn.h5")
+model = tf.keras.models.load_model("model/forest_loss_updated_cnn.h5")
 
 st.set_page_config(page_title="Forest Loss Detector", layout="centered")
 st.title("🌲 Forest Loss Detection")
